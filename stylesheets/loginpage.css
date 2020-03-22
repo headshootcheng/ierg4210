@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+/*login*/
+.loginwrapper{
+    height: 100%;
+    width: 100%;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    background-image: url('../public/images/home/shoppingcart.jpg');
+    background-size:cover;
+    font-family: 'Titillium Web';
+}
+.loginarea{
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.logintitle{
+    font-size: 100;
+    font-weight: bold;
+    color:royalblue;
+}
+.loginrow{
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20;
+    margin-bottom: 20;
+}
+.logintext{
+    font-size: 25;
+    color:aqua;
+    font-weight: bold;
+}
+.loginfield{
+    font-size:25;
+    color:black;
+    width:300;
+    height:40;
+    border-style: solid;
+    border-width: 2;
+    background-color: purple;
+    padding-left: 10;
+    margin-left: 10;
+}
+.loginfield:invalid{
+    background: red;
+}
+.loginbutton{
+    background-color: orange;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    text-decoration:none;
+    color:black;
+    width:200;
+    height:100;
+    font-size: 50;
+}
+.loginbutton:hover{
+    background-color:aquamarine;
+    color:white;
+}
+.signupbutton{
+    background-color: red;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    text-decoration:none;
+    color:black;
+    width:200;
+    height:100;
+    font-size: 50;
+    margin-top:40;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.signupbutton:hover{
+    background-color:blue;
+    color:white;
+    text-decoration:none;
+}
+/*signup*/
+.signupwrapper{
+    height: 100%;
+    width: 100%;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    background-image: url('../public/images/home/signup.png');
+    background-size:cover;
+    font-family: 'Titillium Web';
+}
+.signuparea{
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.signuptitle{
+    font-size: 100;
+    font-weight: bold;
+}
+.signuprow{
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20;
+    margin-bottom: 20;
+}
+.signuptext{
+    font-size: 25;
+    font-weight: bold;
+}
+.signupfield{
+    font-size:25;
+    color:black;
+    width:300;
+    height:40;
+    border-style: solid;
+    border-width: 2;
+    background-color: purple;
+    padding-left: 10;
+    margin-left: 10;
+}
+.signupfield:invalid{
+    background-color: red;
+}
+.errorarea{
+    align-items: center;
+    justify-items: center;
+    padding:20;
+    background-color: red;
+    color:white;
+    font-family: 'Titillium Web';
+    font-size: 20;
+}
+.successarea{
+    align-items: center;
+    justify-items: center;
+    padding:20;
+    background-color:aquamarine;
+    color:white;
+    font-family: 'Titillium Web';
+    font-size: 20;
+}

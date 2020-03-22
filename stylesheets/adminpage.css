@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+.wrapper{
+    height: 100%;
+    width: 100%;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+}
+.hidden{
+    display:none;
+}
+.header{
+    position: fixed;
+   height:100px;
+   width:100%;
+   background-color: blue;
+   flex-direction: row;
+   align-items: center;
+   justify-content:space-between;
+   display: flex;
+ }
+ .headermenubutton{
+     color: white;
+     font-size: 30;
+     margin-left: 20;
+ }
+ 
+ .headertitletext{
+     font-size: 30;
+     color: white;
+     font-family: 'Dancing Script', cursive;
+ }
+ .headerusertext{
+     padding-right:20;
+     font-size: 30;
+     color: white;
+     font-family: 'Titillium Web';
+ }
+ .mainpage{
+    flex-direction: row;
+    display: flex;
+    height: calc(100vh - 100px);
+    margin-top: 100px;
+    overflow: hidden;
+}
+.sidebar{
+    flex-basis:200px;
+    flex-grow: 0;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    display:flex;
+    flex-direction:column;
+}
+
+.menuitem{
+    padding-top: 25;
+    padding-bottom: 25;
+    font-size: 30px;
+    font-family: 'Titillium Web';
+    color: white;
+    display: block;
+    transition: 0.3s;
+    width: 100%;
+    text-decoration: none;
+}
+
+.menuitem:hover{
+    color: black;
+    background-color: white;
+}
+.adminarea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    background-image: url('../public/images/home/admin.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:20;
+    font-family: 'Titillium Web';
+    color: black;
+    overflow: scroll;
+}
+.welcometext{
+    font-family: 'Titillium Web';
+    font-size: 50;
+    color:black;
+}
+/*Catergory,Product*/
+
+.datatable{
+    padding-top: 50;
+    width:80%;
+    border-width: 2px ;
+    border-style: solid;
+    border-color: black;
+    color:black;
+    font-family: 'Titillium Web';
+    font-size: 20;
+}
+.datarow{
+    height:50;
+}
+.dataitem{
+    align-items: center;
+    border-width: 2px ;
+    border-style: solid;
+    border-color: black;
+}
+.submitbutton{
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration:none;
+    color:black;
+}
+
+.submitbutton:hover{
+    color:aquamarine;
+}
+
+.addarea{
+    padding: 50;
+    font-size: 40;
+    font-family: 'Titillium Web';
+}
+.closearea{
+    font-size: 30;
+    font-family: 'Titillium Web';
+}
+
+
+.errorarea{
+    align-items: center;
+    justify-items: center;
+    padding:20;
+    background-color: red;
+    color:white;
+    font-family: 'Titillium Web';
+    font-size: 20;
+}
+
+.successarea{
+    align-items: center;
+    justify-items: center;
+    padding:20;
+    background-color:aquamarine;
+    color:white;
+    font-family: 'Titillium Web';
+    font-size: 20;
+}
+/*login*/
+.loginwrapper{
+    height: 100%;
+    width: 100%;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Titillium Web';
+}
+.loginarea{
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.logintitle{
+    font-size: 100;
+    font-weight: bold;
+}
+.loginrow{
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20;
+    margin-bottom: 20;
+}
+.logintext{
+    font-size: 25;
+    font-weight: bold;
+}
+.loginfield{
+    font-size:25;
+    color:black;
+    width:300;
+    height:40;
+    border-style: solid;
+    border-width: 2;
+    background-color: purple;
+    padding-left: 10;
+    margin-left: 10;
+}
+.loginbutton{
+    background-color: orange;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    text-decoration:none;
+    color:black;
+    width:200;
+    height:100;
+    font-size: 50;
+}
+.loginbutton:hover{
+    background-color:aquamarine;
+    color:white;
+}
+/* Reset Password*/
+.resetpwarea{
+    margin-top: 10;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+.resetpwitem{
+    margin-top:10;
+    flex-direction: row;
+}
+.resetpwtext{
+    font-size: 40;
+    font-family: 'Titillium Web';
+}
+.resetpwfield{
+    font-size:25;
+    color:black;
+    width:300;
+    height:40;
+    border-style: solid;
+    border-width: 2;
+    background-color: aquamarine;
+    padding-left: 10;
+    margin-left: 10;
+}
+.resetbutton{
+    background-color: orange;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    text-decoration:none;
+    color:black;
+    width:150;
+    height:80;
+    font-size: 40;
+    margin-top:20;
+}
+.resetbutton:hover{
+    background-color:aquamarine;
+    color:white;
+}
